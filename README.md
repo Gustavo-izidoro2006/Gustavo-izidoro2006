@@ -25,7 +25,7 @@ Bem-vindo de volta, Gustavo. Sistema pronto.
 
 <!-- ===================== TYPING ANIMATION ===================== -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&duration=3000&pause=800&color=00C9FF&center=true&vCenter=true&width=680&lines=Estudante+de+Analise+e+Desenvolvimento+de+Sistemas;Construindo+um+tutor+de+gramatica+japonesa+com+RAG;Python+%7C+React+%7C+FastAPI+%7C+ChromaDB;Aberto+a+oportunidades+de+estagio" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&duration=3000&pause=800&color=00C9FF&center=true&vCenter=true&width=680&lines=Estudante+de+Analise+e+Desenvolvimento+de+Sistemas;Python+%7C+React+%7C+FastAPI+%7C+ChromaDB;Aberto+a+oportunidades+de+estagio" alt="Typing SVG" />
 </a>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00C9FF,100:92FE9D&height=3&width=800" width="80%"/>
@@ -79,66 +79,8 @@ sobre_mim:
 
 <br>
 
-<!-- ===================== FERRAMENTAS DE APRENDIZADO ===================== -->
-## Como Estudo
-
-<div align="center">
-
-| Area | Recurso |
-|:----:|:--------|
-| **API e IA aplicada** | Anthropic Academy (cursos oficiais de API e MCP) |
-| **Metodologia de projeto** | GitHub Spec Kit — estudando Spec-Driven Development |
-| **React** | react.dev e trilha da Rocketseat |
-| **Python (fundamentos)** | Curso em Video (Guanabara) |
-| **Algoritmos e logica** | Beecrowd e HackerRank |
-| **Apoio no desenvolvimento** | Claude, usado para entender conceitos, planejar arquitetura e construir junto |
-
-</div>
-
-<br>
-
-<!-- ===================== PROJETO PRINCIPAL (TCC) ===================== -->
-## Projeto Atual — TCC
-
-<div align="center">
-<table width="100%">
-<tr><td>
-
-### Tutor de Gramatica Japonesa com RAG
-
-Sistema que responde duvidas de gramatica japonesa (com foco em erros comuns de falantes de portugues) usando uma base de conhecimento curada e a API do Claude como motor de resposta. O objetivo e sair da resposta generica de um modelo de linguagem e ancorar cada resposta em conteudo gramatical revisado.
-
-**Pipeline:**
-
-```txt
-Documentos de gramatica (curados)
-        |
-        v
-   Chunking + Embeddings
-        |
-        v
-   Indexacao no ChromaDB
-        |
-        v
-Pergunta do usuario -> busca por similaridade semantica
-        |
-        v
-Trechos relevantes + pergunta -> prompt com contexto
-        |
-        v
-     Claude API -> resposta fundamentada
-```
-
-`Python` `FastAPI` `ChromaDB` `Claude API` `RAG`
-
-</td></tr>
-</table>
-</div>
-
-<br>
-
-<!-- ===================== OUTROS PROJETOS ===================== -->
-## Outros Projetos
+<!-- ===================== PROJETOS ===================== -->
+## Projetos
 
 <div align="center">
 
@@ -190,69 +132,6 @@ Aplicativo mobile para gestao e vendas de produtos, com React Native e TypeScrip
 </table>
 
 </div>
-
-<br>
-
-<!-- ===================== OBJETIVOS ATUAIS (TERMINAL) ===================== -->
-## Objetivos Atuais
-
-```bash
-gustavo@dev-machine:~$ cat objetivos.txt
-
-[x] Consolidar fundamentos de Python com pratica de algoritmos
-[x] Estruturar o pipeline de RAG do TCC (embeddings + ChromaDB)
-[ ] Finalizar a integracao FastAPI + ChromaDB + Claude API
-[ ] Avancar em React com hooks e consumo de API em nivel intermediario
-[ ] Concluir o TCC: tutor de gramatica japonesa
-[ ] Processo seletivo CI&T — Next Gen AI (estagio em desenvolvimento)
-
-gustavo@dev-machine:~$ echo "Aprendendo construindo, nao so lendo"
-Aprendendo construindo, nao so lendo
-```
-
-<br>
-
-<!-- ===================== GITHUB STATS ===================== -->
-## GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gustavo-izidoro2006&show_icons=true&hide_border=true&count_private=true&theme=graywhite&title_color=0F2027&text_color=2C5364&icon_color=00C9FF&bg_color=FFFFFF00" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gustavo-izidoro2006&layout=compact&hide_border=true&theme=graywhite&title_color=0F2027&text_color=2C5364&bg_color=FFFFFF00" />
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=Gustavo-izidoro2006&hide_border=true&theme=default&background=FFFFFF00&ring=00C9FF&fire=92FE9D&currStreakLabel=0F2027&sideLabels=2C5364&currStreakNum=0F2027&sideNums=0F2027&dates=2C5364" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gustavo-izidoro2006&theme=minimal&hide_border=true&color=0F2027&line=00C9FF&point=92FE9D&area=true&area_color=00C9FF" width="95%"/>
-
-</div>
-
-<br>
-
-<!-- ===================== TROPHIES ===================== -->
-## Trofeus
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Gustavo-izidoro2006&theme=algolia&no-frame=true&no-bg=true&margin-w=12&row=1&column=7" />
-
-</div>
-
-<br>
-
-<!-- ===================== SNAKE CONTRIBUTION ===================== -->
-## Snake Contribution
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Gustavo-izidoro2006/Gustavo-izidoro2006/output/github-contribution-grid-snake.svg" width="95%"/>
-
-</div>
-
-> Para ativar a animacao da cobrinha: voce ja tem o repositorio especial [`Gustavo-izidoro2006/Gustavo-izidoro2006`](https://github.com/Gustavo-izidoro2006/Gustavo-izidoro2006) — e nele que este README deve ficar. Falta adicionar o workflow `snake.yml` (acao oficial [`Platane/snk`](https://github.com/Platane/snk)) na pasta `.github/workflows/`, ativar as Actions e aguardar a primeira execucao gerar o SVG no branch `output`.
 
 <br>
 
