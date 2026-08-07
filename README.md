@@ -5,67 +5,49 @@
 
 <br>
 
+<!-- ===================== TYPING ANIMATION ===================== -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=20&duration=3000&pause=800&color=3F7DC4&center=true&vCenter=true&width=680&lines=Python+%7C+React+%7C+Git+%7C+Docker;Estudando+Spec-Driven+Development+e+skills;Aberto+a+oportunidades+de+estagio" alt="Typing SVG" />
+</a>
+
+<br><br>
+
 <!-- ===================== TERMINAL DE BOOT ===================== -->
-<img src="assets/titlebar-terminal.svg" width="100%"/>
+<img src="assets/terminal-window.svg" width="100%"/>
 
-<table width="100%"><tr><td>
-
-```txt
-C:\SYSTEM32> booting_gustavo_profile.exe
-
-[■■■■■■■■■■■■■■■■■■■■] 100%
-
-> Carregando modulo........... [ OK ]
-> Inicializando dev-tools..... [ OK ]
-> Montando aero-glass-ui...... [ OK ]
-> Conectando ao GitHub API.... [ OK ]
-
-Bem-vindo de volta, Gustavo. Sistema pronto.
-```
-
-</td></tr></table>
-<img src="assets/bottom-edge-thin.svg" width="100%"/>
+</div>
 
 <br>
 
-<!-- ===================== TYPING ANIMATION ===================== -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&duration=3000&pause=800&color=3F7DC4&center=true&vCenter=true&width=680&lines=Estudante+de+Analise+e+Desenvolvimento+de+Sistemas;Python+%7C+React+%7C+Git+%7C+Docker;Estudando+Spec-Driven+Development+e+skills;Aberto+a+oportunidades+de+estagio" alt="Typing SVG" />
-</a>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4FACFE,50:00F2FE,100:43E97B&height=4&width=800" width="100%"/>
 
 <br>
 
 <!-- ===================== SOBRE MIM ===================== -->
 <img src="assets/titlebar-sobre.svg" width="100%"/>
 
-<table width="100%"><tr><td>
+<br>
 
-```yaml
-sobre_mim:
-  nome: "Gustavo Izidoro"
-  usuario_github: "@Gustavo-izidoro2006"
-  formacao: "Analise e Desenvolvimento de Sistemas — 4o periodo, curso noturno"
-  foco_atual: "Desenvolvimento de software com apoio de IA no processo"
-  situacao: "Em busca de estagio na area de desenvolvimento de software"
-  em_estudo:
-    - "Python: fundamentos solidos, praticando algoritmos no Beecrowd e HackerRank"
-    - "React: componentes, JSX, props, useState, useEffect, consumo de API"
-    - "Spec-Driven Development: escrita de specs, skills e planejamento antes de codar"
-    - "Git e GitHub: versionamento com commits diarios"
-  frase: "Aprendendo na pratica, construindo um projeto real do zero ao deploy."
-```
+| Campo | Detalhe |
+|:--|:--|
+| **Formação** | Análise e Desenvolvimento de Sistemas — 4º período, curso noturno |
+| **Foco atual** | Desenvolvimento de software com apoio de IA no processo |
+| **Situação** | Em busca de estágio na área de desenvolvimento de software |
+| **Python** | Fundamentos sólidos, praticando algoritmos no Beecrowd e HackerRank |
+| **React** | Componentes, JSX, props, useState, useEffect, consumo de API |
+| **Metodologia** | Estudando Spec-Driven Development — specs, skills e planejamento antes de codar |
+| **Versionamento** | Git e GitHub, com commits diários |
 
-</td></tr></table>
-<img src="assets/bottom-edge.svg" width="100%"/>
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4FACFE,50:00F2FE,100:43E97B&height=4&width=800" width="100%"/>
 
 <br>
 
 <!-- ===================== TECH STACK ===================== -->
 <img src="assets/titlebar-stack.svg" width="100%"/>
 
-<table width="100%"><tr><td align="center">
+<div align="center">
 <br>
 
 <img src="https://skillicons.dev/icons?i=python,js,react,html,css,git,github,docker,claude&theme=light" />
@@ -74,21 +56,23 @@ sobre_mim:
 
 ![Python](https://img.shields.io/badge/Python-4FACFE?style=for-the-badge&logo=python&logoColor=FFFFFF)
 ![React](https://img.shields.io/badge/React-00C9FF?style=for-the-badge&logo=react&logoColor=FFFFFF)
-![JavaScript](https://img.shields.io/badge/JavaScript-00F2FE?style=for-the-badge&logo=javascript&logoColor=0F2027)
+![JavaScript](https://img.shields.io/badge/JavaScript-00C9FF?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
 ![Git](https://img.shields.io/badge/Git-43E97B?style=for-the-badge&logo=git&logoColor=FFFFFF)
-![Docker](https://img.shields.io/badge/Docker-38F9D7?style=for-the-badge&logo=docker&logoColor=0F2027)
+![Docker](https://img.shields.io/badge/Docker-2CC6B8?style=for-the-badge&logo=docker&logoColor=FFFFFF)
 ![Claude](https://img.shields.io/badge/Claude-4FACFE?style=for-the-badge&logo=claude&logoColor=FFFFFF)
 
 <br>
-</td></tr></table>
-<img src="assets/bottom-edge.svg" width="100%"/>
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4FACFE,50:00F2FE,100:43E97B&height=4&width=800" width="100%"/>
 
 <br>
 
 <!-- ===================== PROJETOS ===================== -->
 <img src="assets/titlebar-projetos.svg" width="100%"/>
 
-<table width="100%"><tr><td>
 <br>
 
 <div align="center">
@@ -97,7 +81,7 @@ sobre_mim:
 <td width="50%">
 
 ### TarefasExpress
-Aplicacao de gerenciamento de tarefas rapida e direta para organizar o dia a dia.
+Aplicação de gerenciamento de tarefas rápida e direta para organizar o dia a dia.
 
 `JavaScript` `HTML` `CSS`
 
@@ -107,7 +91,7 @@ Aplicacao de gerenciamento de tarefas rapida e direta para organizar o dia a dia
 <td width="50%">
 
 ### VisuCard
-Plataforma web com autenticacao, busca de profissionais, contratacoes, portfolio e dashboard de usuario.
+Plataforma web com autenticação, busca de profissionais, contratações, portfólio e dashboard de usuário.
 
 `PHP` `MySQL` `JavaScript`
 
@@ -119,7 +103,7 @@ Plataforma web com autenticacao, busca de profissionais, contratacoes, portfolio
 <td width="50%">
 
 ### Vendas-Produtos-Native
-Aplicativo mobile para gestao e vendas de produtos, com React Native e TypeScript.
+Aplicativo mobile para gestão e vendas de produtos, com React Native e TypeScript.
 
 `TypeScript` `React Native`
 
@@ -129,7 +113,7 @@ Aplicativo mobile para gestao e vendas de produtos, com React Native e TypeScrip
 <td width="50%">
 
 ### AgendasBarber
-Sistema de agendamento pensado para barbearias, com interface simples para marcar horarios.
+Sistema de agendamento pensado para barbearias, com interface simples para marcar horários.
 
 `HTML` `CSS` `JavaScript`
 
@@ -141,8 +125,8 @@ Sistema de agendamento pensado para barbearias, com interface simples para marca
 </div>
 
 <br>
-</td></tr></table>
-<img src="assets/bottom-edge.svg" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4FACFE,50:00F2FE,100:43E97B&height=4&width=800" width="100%"/>
 
 <br>
 
@@ -153,6 +137,6 @@ Sistema de agendamento pensado para barbearias, com interface simples para marca
 
 <br><br>
 
-<sub>Feito com codigo e um toque de nostalgia Aero</sub>
+<sub>Feito com código e um toque de nostalgia Aero</sub>
 
 </div>
