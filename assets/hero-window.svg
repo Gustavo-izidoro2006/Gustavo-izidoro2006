@@ -28,11 +28,20 @@
       <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1b3a5c" flood-opacity="0.4"/>
     </filter>
   </defs>
+  <style>
+    .shine { animation: sweep 6s ease-in-out 1s infinite; }
+    .pill  { opacity: 0; animation: pop 0.5s ease-out forwards; }
+    @keyframes sweep { 0% { transform: translateX(-400px); } 35%, 100% { transform: translateX(2000px); } }
+    @keyframes pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  </style>
+  <clipPath id="barclip"><path d="M20,2 H1580 A20,20 0 0 1 1598,22 V60 H2 V22 A20,20 0 0 1 20,2 Z"/></clipPath>
+
   <g filter="url(#shadow)">
     <path d="M20,2 H1580 A20,20 0 0 1 1598,22 V308 H2 V22 A20,20 0 0 1 20,2 Z" fill="url(#body)" stroke="#2f5f92" stroke-width="2.5"/>
   </g>
   <path d="M20,2 H1580 A20,20 0 0 1 1598,22 V60 H2 V22 A20,20 0 0 1 20,2 Z" fill="url(#bar)"/>
   <path d="M20,2 H1580 A20,20 0 0 1 1598,22 V26 H2 V22 A20,20 0 0 1 20,2 Z" fill="url(#gloss)"/>
+  <g clip-path="url(#barclip)"><rect class="shine" x="0" y="0" width="140" height="60" fill="#ffffff" fill-opacity="0.35" transform="skewX(-20)"/></g>
   <line x1="0" y1="60" x2="1600" y2="60" stroke="#2f5f92" stroke-width="1.5"/>
   <circle cx="42" cy="31" r="11" fill="#ffffff" fill-opacity="0.55" stroke="#ffffff" stroke-width="1.5"/>
   <circle cx="42" cy="31" r="5" fill="#2f5f92" fill-opacity="0.55"/>
@@ -51,17 +60,17 @@
   <text x="800" y="186" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="28" font-weight="400" fill="#3f6f9c">Desenvolvedor de software em formação  ·  Software + IA aplicada</text>
   <line x1="560" y1="208" x2="1040" y2="208" stroke="#9cc6ea" stroke-width="2" stroke-linecap="round"/>
   
-  <g>
+  <g class="pill" style="animation-delay:0.30s">
     <rect x="326" y="236" width="230" height="40" rx="20" fill="url(#btn)" stroke="#6f9fca" stroke-width="1.5"/>
     <rect x="332" y="239" width="218" height="14" rx="7" fill="#ffffff" fill-opacity="0.65"/>
     <text x="441.0" y="263" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="19" font-weight="600" fill="#0f2b4c">Python  ·  Django</text>
   </g>
-  <g>
+  <g class="pill" style="animation-delay:0.55s">
     <rect x="580" y="236" width="290" height="40" rx="20" fill="url(#btn)" stroke="#6f9fca" stroke-width="1.5"/>
     <rect x="586" y="239" width="278" height="14" rx="7" fill="#ffffff" fill-opacity="0.65"/>
     <text x="725.0" y="263" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="19" font-weight="600" fill="#0f2b4c">React  ·  React Native</text>
   </g>
-  <g>
+  <g class="pill" style="animation-delay:0.80s">
     <rect x="894" y="236" width="380" height="40" rx="20" fill="url(#btn)" stroke="#6f9fca" stroke-width="1.5"/>
     <rect x="900" y="239" width="368" height="14" rx="7" fill="#ffffff" fill-opacity="0.65"/>
     <text x="1084.0" y="263" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="19" font-weight="600" fill="#0f2b4c">Spec-Driven Development + IA</text>
