@@ -81,6 +81,16 @@
 <td width="50%">
 
 ### TarefasExpress
+App Android de gestão para o Studio Geração Energia.
+
+`React Native` `Android` `Django` `Expo`
+
+[![Repo](https://img.shields.io/badge/Ver%20Reposit%C3%B3rio-3F7DC4?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/Gustavo-izidoro2006/Studio-GE)
+
+</td>
+<td width="50%">
+
+### TarefasExpress
 Aplicação de gerenciamento de tarefas rápida e direta para organizar o dia a dia.
 
 `JavaScript` `HTML` `CSS`
@@ -88,18 +98,6 @@ Aplicação de gerenciamento de tarefas rápida e direta para organizar o dia a 
 [![Repo](https://img.shields.io/badge/Ver%20Reposit%C3%B3rio-3F7DC4?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/Gustavo-izidoro2006/TarefasExpress)
 
 </td>
-<td width="50%">
-
-### VisuCard
-Plataforma web com autenticação, busca de profissionais, contratações, portfólio e dashboard de usuário.
-
-`PHP` `MySQL` `JavaScript`
-
-[![Repo](https://img.shields.io/badge/Ver%20Reposit%C3%B3rio-3F7DC4?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/Gustavo-izidoro2006/VisuCard)
-
-</td>
-</tr>
-<tr>
 <td width="50%">
 
 ### Vendas-Produtos-Native
