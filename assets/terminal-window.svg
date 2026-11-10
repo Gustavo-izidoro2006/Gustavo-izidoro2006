@@ -31,6 +31,8 @@
     <filter id="shadow" x="-5%" y="-15%" width="110%" height="140%">
       <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1b3a5c" flood-opacity="0.4"/>
     </filter>
+    <filter id="tblur" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="28"/></filter>
+    <clipPath id="tbody"><path d="M2,60 H1598 V412 A16,16 0 0 1 1582,428 H18 A16,16 0 0 1 2,412 Z"/></clipPath>
     <clipPath id="progclip">
       <rect x="48" y="146" width="560" height="22" rx="11"/>
     </clipPath>
@@ -41,6 +43,8 @@
     .ln  { opacity: 0; animation: show 0.25s ease-out forwards; }
     .fill { transform: scaleX(0); transform-origin: 48px 0; animation: grow 1.6s ease-in-out 0.6s forwards; }
     .cur { animation: blink 1s steps(1) 4.6s infinite; opacity: 0; }
+    .aur { animation: aur 16s ease-in-out infinite alternate; }
+    @keyframes aur { from { transform: translateX(-120px); opacity: 0.35; } to { transform: translateX(120px); opacity: 0.7; } }
     @keyframes show  { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
     @keyframes grow  { to { transform: scaleX(1); } }
     @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
@@ -48,6 +52,10 @@
 
   <g filter="url(#shadow)">
     <path d="M16,2 H1584 A16,16 0 0 1 1598,18 V428 H2 V18 A16,16 0 0 1 16,2 Z" fill="url(#body)" stroke="#2f5f92" stroke-width="2.5"/>
+  </g>
+  <g clip-path="url(#tbody)" filter="url(#tblur)">
+    <path class="aur" d="M-100,420 C300,350 700,440 1000,380 S1500,360 1700,400 L1700,470 L-100,470 Z" fill="#00f2fe" fill-opacity="0.35"/>
+    <path class="aur" style="animation-delay:-8s" d="M-100,440 C400,390 800,460 1200,410 S1600,420 1700,430 L1700,480 L-100,480 Z" fill="#43e97b" fill-opacity="0.3"/>
   </g>
   <path d="M16,2 H1584 A16,16 0 0 1 1598,18 V60 H2 V18 A16,16 0 0 1 16,2 Z" fill="url(#bar)"/>
   <path d="M16,2 H1584 A16,16 0 0 1 1598,18 V26 H2 V18 A16,16 0 0 1 16,2 Z" fill="url(#gloss)"/>
@@ -82,5 +90,5 @@
   <text class="t ln" x="48" y="284" fill="#e8f0f7" style="animation-delay:3.1s">&gt; Lendo specs (SDD)................. <tspan fill="#5ee89a">[ OK ]</tspan></text>
   <text class="t ln" x="48" y="316" fill="#e8f0f7" style="animation-delay:3.5s">&gt; Conectando Claude + Copilot....... <tspan fill="#5ee89a">[ OK ]</tspan></text>
   <text class="t ln" x="48" y="370" fill="#5ee89a" style="animation-delay:4.1s">Sistema pronto. Aberto a oportunidades de estágio.</text>
-  <rect class="cur" x="640" y="352" width="13" height="24" fill="#5ee89a"/>
+  <rect class="cur" x="692" y="352" width="13" height="24" fill="#5ee89a"/>
 </svg>
